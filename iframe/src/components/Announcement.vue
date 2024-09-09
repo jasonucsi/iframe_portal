@@ -1,8 +1,8 @@
 <template>
     <div class="announcement">
-      <!-- <div class="title">
+      <div class="title">
         <h1>Announcement</h1>
-      </div> -->
+      </div>
       <div class="paragraph-container">
         <!-- <img src="../assets/logo.png" alt="Image" class="image"> -->
         <p>08-September-2024 09:30am
