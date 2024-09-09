@@ -47,12 +47,13 @@ export default {
 
 <style scoped>
 .banner {
-  position: fixed; /* Fixed positioning to cover the entire viewport */
-  top: 0;
+  position: sticky; /* Change from fixed to sticky */
+  top: 0; /* Stick to the top of the viewport */
   left: 0;
   width: 100vw; /* Full viewport width */
   height: 100vh; /* Full viewport height */
   overflow: hidden; /* Hide any overflow */
+  z-index: 1; /* Ensure it stays on top of other content */
 }
 
 .vueper-slide {
@@ -66,6 +67,8 @@ export default {
   height: 100%;
   object-fit: cover; /* Ensure the image covers the container without distortion */
   object-position: center; /* Center the image within the container */
+  border-radius: 20px; /* Adjust the border radius as needed */
 }
+
 </style>
 
