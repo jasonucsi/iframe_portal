@@ -68,6 +68,5 @@ export default {
   object-position: center; /* Center the image within the container */
   border-radius: 50%; /* Make the image circular */
 }
-
 </style>
 
