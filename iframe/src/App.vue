@@ -227,8 +227,8 @@ export default {
     const imageUrl = require('./assets/announcement1.jpg')
       Swal.fire({
         imageUrl: imageUrl,
-        imageWidth: 300,
-        imageHeight: 400,
+        imageWidth: 400,
+        imageHeight: 500,
         imageAlt: "Custom image",
         confirmButtonText: 'OK',
         confirmButtonColor: '#FF0000', // change the OK button color to red
