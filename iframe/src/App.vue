@@ -227,8 +227,8 @@ export default {
     const imageUrl = require('./assets/announcement1.jpg')
       Swal.fire({
         imageUrl: imageUrl,
-        imageWidth: 400,
-        imageHeight: 500,
+        imageWidth: 300,
+        imageHeight: 400,
         imageAlt: "Custom image",
         confirmButtonText: 'OK',
         confirmButtonColor: '#FF0000', // change the OK button color to red
@@ -238,8 +238,8 @@ export default {
     const imageUrl = require('./assets/default.jpg')
       Swal.fire({
         imageUrl: imageUrl,
-        imageWidth: 500,
-        imageHeight: 600,
+        imageWidth: 300,
+        imageHeight: 400,
         imageAlt: "Custom image",
         confirmButtonText: 'OK',
         confirmButtonColor: '#FF0000', // change the OK button color to red
@@ -249,8 +249,8 @@ export default {
     const imageUrl = require('./assets/announcement2.jpg')
       Swal.fire({
         imageUrl: imageUrl,
-        imageWidth: 500,
-        imageHeight: 600,
+        imageWidth: 300,
+        imageHeight: 400,
         imageAlt: "Custom image",
         confirmButtonText: 'OK',
         confirmButtonColor: '#FF0000', // change the OK button color to red
@@ -260,8 +260,8 @@ export default {
     const imageUrl = require('./assets/coffee.jpg')
       Swal.fire({
         imageUrl: imageUrl,
-        imageWidth: 500,
-        imageHeight: 600,
+        imageWidth: 300,
+        imageHeight: 400,
         imageAlt: "Custom image",
         confirmButtonText: 'OK',
         confirmButtonColor: '#FF0000', // change the OK button color to red
@@ -271,8 +271,8 @@ export default {
     const imageUrl = require('./assets/honours.jpg')
       Swal.fire({
         imageUrl: imageUrl,
-        imageWidth: 500,
-        imageHeight: 600,
+        imageWidth: 300,
+        imageHeight: 400,
         imageAlt: "Custom image",
         confirmButtonText: 'OK',
         confirmButtonColor: '#FF0000', // change the OK button color to red
@@ -282,8 +282,8 @@ export default {
     const imageUrl = require('./assets/whatsnext.jpg')
       Swal.fire({
         imageUrl: imageUrl,
-        imageWidth: 500,
-        imageHeight: 600,
+        imageWidth: 300,
+        imageHeight: 400,
         imageAlt: "Custom image",
         confirmButtonText: 'OK',
         confirmButtonColor: '#FF0000', // change the OK button color to red
@@ -293,8 +293,8 @@ export default {
     const imageUrl = require('./assets/boost.jpg')
       Swal.fire({
         imageUrl: imageUrl,
-        imageWidth: 500,
-        imageHeight: 600,
+        imageWidth: 300,
+        imageHeight: 400,
         imageAlt: "Custom image",
         confirmButtonText: 'OK',
         confirmButtonColor: '#FF0000', // change the OK button color to red
@@ -304,8 +304,8 @@ export default {
     const imageUrl = require('./assets/diet.jpg')
       Swal.fire({
         imageUrl: imageUrl,
-        imageWidth: 500,
-        imageHeight: 600,
+        imageWidth: 300,
+        imageHeight: 400,
         imageAlt: "Custom image",
         confirmButtonText: 'OK',
         confirmButtonColor: '#FF0000', // change the OK button color to red
@@ -315,8 +315,8 @@ export default {
     const imageUrl = require('./assets/contact.jpg')
       Swal.fire({
         imageUrl: imageUrl,
-        imageWidth: 500,
-        imageHeight: 600,
+        imageWidth: 300,
+        imageHeight: 400,
         imageAlt: "Custom image",
         confirmButtonText: 'OK',
         confirmButtonColor: '#FF0000', // change the OK button color to red
