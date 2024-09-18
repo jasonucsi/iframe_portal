@@ -351,7 +351,8 @@ export default {
 } */
 
 .banner {
-  position: fixed; /* Keep this to ensure the banner is at the top */
+ /* Keep this to ensure the banner is at the top */
+  /*position: fixed*/
   top: 0;
   left: 0;
   width: 100%;
@@ -362,7 +363,7 @@ export default {
 
 .announcement {
   position: relative;
-  margin-top: 35vh; /* Reduce this value to move it closer */
+  margin-top: -65vh; /* Reduce this value to move it closer */
   padding: 20px;
   z-index: 2;
   background-color: #fff; /* Ensure a solid background */
