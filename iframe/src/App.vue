@@ -11,6 +11,9 @@ import AnnouncementPage from './components/Announcement.vue'
 
 export default {
   name: 'App',
+  compatConfig: {
+    INSTANCE_LISTENERS: false,
+  },
   components: {
     CarouselPage,
     AnnouncementPage

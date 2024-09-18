@@ -53,6 +53,7 @@ export default {
   width: 100vw; /* Full viewport width */
   height: 100vh; /* Full viewport height */
   overflow: hidden; /* Hide any overflow */
+  /* z-index: 1; */
 }
 
 .vueper-slide {

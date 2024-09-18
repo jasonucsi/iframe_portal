@@ -6,7 +6,7 @@
     <div class="paragraph-container">
       <ul>
         <li>
-          <img src="../assets/announcement1.jpg" alt="Image" class="image">
+          <img src="../assets/announcement1.jpg" alt="Image" class="image" @click="onClickImage1()">
           <div class="text-content">
             <h3>10-September-2024 03:10pm</h3>
             <p>
@@ -19,7 +19,7 @@
     <div class="paragraph-container">
       <ul>
         <li>
-          <img src="../assets/default.jpg" alt="Image" class="image">
+          <img src="../assets/default.jpg" alt="Image" class="image"  @click="onClickImage2()">
           <div class="text-content">
             <h3>08-September-2024 09:30am</h3>
             <p>
@@ -46,7 +46,7 @@
     <div class="paragraph-container">
       <ul>
         <li>
-          <img src="../assets/announcement2.jpg" alt="Image" class="image">
+          <img src="../assets/announcement2.jpg" alt="Image" class="image"  @click="onClickImage3()">
           <div class="text-content">
             <h3>26-August -2024 09:38am</h3>
             <p>
@@ -59,7 +59,7 @@
     <div class="paragraph-container">
       <ul>
         <li>
-          <img src="../assets/coffee.jpg" alt="Image" class="image">
+          <img src="../assets/coffee.jpg" alt="Image" class="image"  @click="onClickImage4()">
           <div class="text-content">
             <h3>14-June -2024 11:42am</h3>
             <p>
@@ -88,7 +88,7 @@
     <div class="paragraph-container">
       <ul>
         <li>
-          <img src="../assets/honours.jpg" alt="Image" class="image">
+          <img src="../assets/honours.jpg" alt="Image" class="image"  @click="onClickImage5()">
           <div class="text-content">
             <h3>22-June -2023 11:45am</h3>
             <p>
@@ -105,7 +105,7 @@
     <div class="paragraph-container">
       <ul>
         <li>
-          <img src="../assets/whatsnext.jpg" alt="Image" class="image">
+          <img src="../assets/whatsnext.jpg" alt="Image" class="image"  @click="onClickImage6()">
           <div class="text-content">
             <h3>14-March -2024 09:11am</h3>
             <p>
@@ -123,7 +123,7 @@
     <div class="paragraph-container">
       <ul>
         <li>
-          <img src="../assets/boost.jpg" alt="Image" class="image">
+          <img src="../assets/boost.jpg" alt="Image" class="image"  @click="onClickImage7()">
           <div class="text-content">
             <h3>14-March -2024 08:19am</h3>
             <p>
@@ -141,7 +141,7 @@
     <div class="paragraph-container">
       <ul>
         <li>
-          <img src="../assets/diet.jpg" alt="Image" class="image">
+          <img src="../assets/diet.jpg" alt="Image" class="image"  @click="onClickImage8()">
           <div class="text-content">
             <h3>14-March -2024 08:19am</h3>
             <p>
@@ -154,7 +154,7 @@
     <div class="paragraph-container">
       <ul>
         <li>
-          <img src="../assets/contact.jpg" alt="Image" class="image">
+          <img src="../assets/contact.jpg" alt="Image" class="image"  @click="onClickImage9()">
           <div class="text-content">
             <h3>14-March -2024 08:19am</h3>
             <p>
@@ -170,10 +170,117 @@
 </template>
 
 <script>
+import Swal from "sweetalert2";
 export default {
+  compatConfig: {
+    INSTANCE_LISTENERS: false,
+  },
   name: 'AnnouncementPage',
   data() {
-    return {};
+    return {
+
+    };
+  },
+  methods: {
+    onClickImage1(){
+    const imageUrl = require('../assets/announcement1.jpg')
+      Swal.fire({
+        imageUrl: imageUrl,
+        imageWidth: 500,
+        imageHeight: 600,
+        imageAlt: "Custom image",
+        confirmButtonText: 'OK',
+        confirmButtonColor: '#FF0000', // change the OK button color to red
+      });
+    },
+    onClickImage2(){
+    const imageUrl = require('../assets/default.jpg')
+      Swal.fire({
+        imageUrl: imageUrl,
+        imageWidth: 500,
+        imageHeight: 600,
+        imageAlt: "Custom image",
+        confirmButtonText: 'OK',
+        confirmButtonColor: '#FF0000', // change the OK button color to red
+      });
+    },
+    onClickImage3(){
+    const imageUrl = require('../assets/announcement2.jpg')
+      Swal.fire({
+        imageUrl: imageUrl,
+        imageWidth: 500,
+        imageHeight: 600,
+        imageAlt: "Custom image",
+        confirmButtonText: 'OK',
+        confirmButtonColor: '#FF0000', // change the OK button color to red
+      });
+    },
+    onClickImage4(){
+    const imageUrl = require('../assets/coffee.jpg')
+      Swal.fire({
+        imageUrl: imageUrl,
+        imageWidth: 500,
+        imageHeight: 600,
+        imageAlt: "Custom image",
+        confirmButtonText: 'OK',
+        confirmButtonColor: '#FF0000', // change the OK button color to red
+      });
+    },
+    onClickImage5(){
+    const imageUrl = require('../assets/honours.jpg')
+      Swal.fire({
+        imageUrl: imageUrl,
+        imageWidth: 500,
+        imageHeight: 600,
+        imageAlt: "Custom image",
+        confirmButtonText: 'OK',
+        confirmButtonColor: '#FF0000', // change the OK button color to red
+      });
+    },
+    onClickImage6(){
+    const imageUrl = require('../assets/whatsnext.jpg')
+      Swal.fire({
+        imageUrl: imageUrl,
+        imageWidth: 500,
+        imageHeight: 600,
+        imageAlt: "Custom image",
+        confirmButtonText: 'OK',
+        confirmButtonColor: '#FF0000', // change the OK button color to red
+      });
+    },
+    onClickImage7(){
+    const imageUrl = require('../assets/boost.jpg')
+      Swal.fire({
+        imageUrl: imageUrl,
+        imageWidth: 500,
+        imageHeight: 600,
+        imageAlt: "Custom image",
+        confirmButtonText: 'OK',
+        confirmButtonColor: '#FF0000', // change the OK button color to red
+      });
+    },
+    onClickImage8(){
+    const imageUrl = require('../assets/diet.jpg')
+      Swal.fire({
+        imageUrl: imageUrl,
+        imageWidth: 500,
+        imageHeight: 600,
+        imageAlt: "Custom image",
+        confirmButtonText: 'OK',
+        confirmButtonColor: '#FF0000', // change the OK button color to red
+      });
+    },
+    onClickImage9(){
+    const imageUrl = require('../assets/contact.jpg')
+      Swal.fire({
+        imageUrl: imageUrl,
+        imageWidth: 500,
+        imageHeight: 600,
+        imageAlt: "Custom image",
+        confirmButtonText: 'OK',
+        confirmButtonColor: '#FF0000', // change the OK button color to red
+      });
+    },
   }
 };
 </script>
@@ -183,7 +290,7 @@ export default {
   top: 0; /* Position it at the top of the viewport */
   left: 0; /* Position it at the left edge of the viewport */
   width: 100%; /* Take up the full width of the viewport */
-  z-index: 1; /* Ensure it appears above other elements */
+  /* z-index: 1; Ensure it appears above other elements */
   display: flex; /* Stack elements vertically */
   flex-direction: column;
   margin-top: 33%;
@@ -216,6 +323,8 @@ li {
   max-width: 50px; /* Ensure the image doesn't exceed the width of the container */
   max-height: 50px; /* Ensure the image doesn't exceed the height of the container */
   margin-right: 20px; /* Add margin between the image and text */
+  z-index: 1;
+  object-fit: cover;
   /* border-radius: 50%; Make the image circular (optional) */
 }
 
