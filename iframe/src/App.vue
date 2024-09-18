@@ -227,8 +227,8 @@ export default {
     const imageUrl = require('./assets/announcement1.jpg')
       Swal.fire({
         imageUrl: imageUrl,
-        imageWidth: 500,
-        imageHeight: 600,
+        imageWidth: 300,
+        imageHeight: 400,
         imageAlt: "Custom image",
         confirmButtonText: 'OK',
         confirmButtonColor: '#FF0000', // change the OK button color to red
@@ -333,23 +333,41 @@ export default {
   color: #2c3e50;
 }
 
-.banner {
-  position: fixed;
+/* .banner {
+  position: fixed; 
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  z-index: 1; /* Set the banner to a lower z-index */
+  height: 100vh; 
+  overflow: hidden; 
+  z-index: 0; 
+}
+
+.announcement {
+  position: relative; 
+  z-index: 1; 
+  margin-top: 25%; 
+  padding: 20px;
+} */
+
+.banner {
+  position: fixed; /* Keep this to ensure the banner is at the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh; /* Full height of the viewport */
+  overflow: hidden; /* Hide any overflow */
+  z-index: 1; /* Ensure the banner is above other content */
 }
 
 .announcement {
   position: relative;
-  margin-top: 25%;
+  margin-top: 35vh; /* Reduce this value to move it closer */
   padding: 20px;
   z-index: 2;
-  background-color: #fff; /* Add a solid white background */
+  background-color: #fff; /* Ensure a solid background */
 }
+
 
 .title {
   display: flex;
