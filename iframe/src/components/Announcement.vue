@@ -293,13 +293,13 @@ export default {
   /* z-index: 1; Ensure it appears above other elements */
   display: flex; /* Stack elements vertically */
   flex-direction: column;
-  margin-top: 33%;
+  margin-top: 35%;
 }
 
 .title {
   display: flex;
   justify-content: center;
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 .paragraph-container {
