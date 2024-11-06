@@ -1,7 +1,7 @@
 <template>
   <div class="announcement">
     <div class="title">
-      <h1>Announcement</h1>
+      <h1>Announcements</h1>
     </div>
     <div class="paragraph-container">
       <ul>

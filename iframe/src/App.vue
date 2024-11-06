@@ -83,8 +83,6 @@
               📍 Location: Postgraduate Lounge, Level 10, Block G, KL Campus
               🎉 Extras: Free coffee, snacks, and fun sharing! 
 
-              
-
               💡 Why You Can’t Miss This:
 
               Unlock Your Potential: Discover why UCSI is your best choice for progression.
@@ -358,20 +356,37 @@ export default {
   width: 100%;
   height: 100vh; /* Full height of the viewport */
   overflow: hidden; /* Hide any overflow */
-  z-index: 1; /* Ensure the banner is above other content */
+  /* z-index: 1; Ensure the banner is above other content */
+  object-fit: cover
+}
+
+.vueper-slide {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.vueper-slide img {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Change to contain to prevent cropping */
+  object-position: center;
+  max-width: 100%; /* Add max-width to prevent horizontal overflow */
+  max-height: 100vh; /* Add max-height to prevent vertical overflow */
 }
 
 .announcement {
   position: relative;
-  margin-top: -65vh; /* Reduce this value to move it closer */
+  margin-top: -67vh; /* Reduce this value to move it closer */
   padding: 20px;
   z-index: 2;
   background-color: #fff; /* Ensure a solid background */
 }
 
-
 .title {
   display: flex;
+  /* margin-bottom: 10px; */
   justify-content: center;
 }
 
