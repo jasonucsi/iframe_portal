@@ -19,9 +19,156 @@
     <div class="paragraph-container">
       <ul>
         <li>
+          <img src="./assets/default.jpg" alt="Image" class="image" @click="onClickImage2()">
+          <div class="text-content">
+            <h3>05-November -2024 09:31am</h3>
+            <p>
+              Sarawak Campus Final Examination Timetable (2024-09 Semester) for Diploma & Foundation Programmes_Second Draft (Student)
+
+              Dear Students, 
+
+              Attached is the Second Draft of the (2024-09 Semester) Final Examination Timetable for Diploma and Foundation Programmes (Sarawak Campus).  Please note that this timetable is subject to change until we release the FINAL VERSION. If you notice any scheduling conflicts, please inform the Exam Centre by 10 November 2024. 
+
+              It is important to use the latest examination timetable from IIS and avoid relying on information from other sources. Any issues caused by using an outdated version of the timetable will be solely the responsibility of the student.
+
+              Thank you. 
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="paragraph-container">
+      <ul>
+        <li>
+          <img src="./assets/default.jpg" alt="Image" class="image" @click="onClickImage2()">
+          <div class="text-content">
+            <h3>02-November -2024 12:02pm</h3>
+            <p>
+              FHTM Diploma Final Exam Timetable - 2024-09 Semester
+
+              Dear Students,
+
+              Attached is the Final Examination Timetable for FHTM Diploma Programmes semester 2024-09. 
+
+              Please avoid arranging any other activities during the examination period.
+
+              Thank you, 
+
+              FHTM
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="paragraph-container">
+      <ul>
+        <li>
+          <img src="./assets/registar2.jpg" alt="Image" class="image" @click="onClickImage11()">
+          <div class="text-content">
+            <h3>30-October -2024 03:54pm</h3>
+            <p>
+              REGISTRAR’S OFFICE: EXTENSION PERIOD OF COURSE SELECTION FOR GENERAL PROGRAMMES 2025-01 SEMESTER
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="paragraph-container">
+      <ul>
+        <li>
+          <img src="./assets/registar.jpg" alt="Image" class="image" @click="onClickImage10()">
+          <div class="text-content">
+            <h3>25-October -2024 11:19am</h3>
+            <p>
+              REGISTRAR’S OFFICE: COURSE EVALUATION & COURSE SELECTION FOR 2025-01 SEMESTER
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="paragraph-container">
+      <ul>
+        <li>
+          <img src="./assets/default.jpg" alt="Image" class="image" @click="onClickImage2()">
+          <div class="text-content">
+            <h3>25-October -2024 10:37am</h3>
+            <p>
+              FINAL VERSION of examination timetable for General Programmes (Short Semester) intake September- October 2024
+
+              Dear Students,
+
+              Attached is the FINAL VERSION of final examination timetable for General Programmes (Short Semester) intake September - October 2024.
+
+              Please avoid scheduling any other activities during the examination period to avoid conflicts.
+
+              Please download the latest examination timetable from IIS and refrain from using information from other sources.
+
+              Any problems occurred due to the student using an outdated version of the examination timetable will be solely borne by the student.
+
+              Please CLICK link attached below to download the file.
+
+              Thank you,
+
+              Examination Centre.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="paragraph-container">
+      <ul>
+        <li>
+          <img src="./assets/default.jpg" alt="Image" class="image" @click="onClickImage2()">
+          <div class="text-content">
+            <h3>23-October -2024 09:44am</h3>
+            <p>
+              FHTM Master Final Exam Timetable - 2024-09 Semester
+
+              FHTM Master Programmes 2024-09 Semester Final Examination Timetable 
+
+              Dear Students, 
+
+              Attached is the Final Examination Timetable for FHTM Master Programmes semester 2024-09.  
+
+              Please avoid arranging any other activities during the examination period. 
+
+              Thank you, 
+
+              FHTM.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="paragraph-container">
+      <ul>
+        <li>
+          <img src="./assets/default.jpg" alt="Image" class="image" @click="onClickImage2()">
+          <div class="text-content">
+            <h3>18-October -2024 04:24pm</h3>
+            <p>
+              Sarawak Campus Final Examination Timetable (2024-09 Semester) for Degree & Postgraduate Programmes_Final Version (Student)
+
+              Dear Students, 
+
+              Please find attached the Final Version of the (2024-09 Semester) Final Examination Timetable for Degree and Postgraduate Programmes (Sarawak Campus).  Kindly ensure that you use the latest examination timetable available on IIS and refrain from relying on information from other sources. Any issues arising from using an outdated version of the examination timetable will be the responsibility of the student.
+
+              Important Note (Self-Print Examination Slip) :
+
+              Students are required to print their examination slip directly from their IIS account. For guidelines on this process, please click here.
+
+              Thank you. 
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="paragraph-container">
+      <ul>
+        <li>
           <img src="./assets/announcement1.jpg" alt="Image" class="image" @click="onClickImage1()">
           <div class="text-content">
-            <h3>10-September-2024 03:10pm</h3>
+            <h3>10-September-2024222 03:10pm</h3>
             <p>
               Deadline of Apply for Supplementary Exam (May-Aug) 2024 Semester
             </p>
@@ -315,6 +462,28 @@ export default {
         imageUrl: imageUrl,
         imageWidth: 300,
         imageHeight: 400,
+        imageAlt: "Custom image",
+        confirmButtonText: 'OK',
+        confirmButtonColor: '#FF0000', // change the OK button color to red
+      });
+    },
+    onClickImage10(){
+    const imageUrl = require('./assets/registar.jpg')
+      Swal.fire({
+        imageUrl: imageUrl,
+        imageWidth: 500,
+        imageHeight: 600,
+        imageAlt: "Custom image",
+        confirmButtonText: 'OK',
+        confirmButtonColor: '#FF0000', // change the OK button color to red
+      });
+    },
+    onClickImage11(){
+    const imageUrl = require('./assets/registar2.jpg')
+      Swal.fire({
+        imageUrl: imageUrl,
+        imageWidth: 500,
+        imageHeight: 600,
         imageAlt: "Custom image",
         confirmButtonText: 'OK',
         confirmButtonColor: '#FF0000', // change the OK button color to red

@@ -12,7 +12,7 @@
     "sweetalert2": "^11.14.0",
     "vue": "^2.6.14",
     "vueperslides": "^2.16.0",
-    "webpack-dev-server": "^4.15.2"
+    "webpack-dev-server": "^5.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
